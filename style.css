@@ -41,3 +41,16 @@ html {
     .bg_purple{
         background-color: #cb6ce6
     }
+
+    @media only screen and (min-width: 550px){
+        body {
+            background-image: url("YUVAL_SCHWARTZ2.png");
+            background-repeat: no-repeat;
+         }
+    }
+    @media only screen and (max-width: 550px){
+        body {
+            background-image: url("Yuval-mobile.png");
+            background-repeat: no-repeat;
+         }
+    }
