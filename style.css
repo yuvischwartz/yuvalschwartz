@@ -1,31 +1,4 @@
-/* colors:
-green: #7ed957
-blue: #38b6ff
-pink: #ff66c4
-purple: #cb6ce6
-blue2 : #5271ff */
 
-html {
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  body , html{
-      height: 100%;
-  }
-  .title{
-    font-family: 'Belleza', sans-serif;
-  }
-  .body{
-    font-family: "Lato", Helvetica, Arial, sans-serif; 
-    font-weight: 500;
-  }
-  .body-lite{
-    font-family: "Lato", Helvetica, Arial, sans-serif; 
-    font-weight: 300;
-  }
   .bg_blue{
       background-color: #38b6ff;
   }
@@ -42,10 +15,74 @@ html {
         background-color: #cb6ce6
     }
 
-
-        body {
-            background-image: url("background.png");
-            background-repeat: repeat;
-         }
     
+/*
+Color List:
+- Dark Blue #264653
+- Blue #2a9d8f
+- Yellow #e9c46a
+- Light Organge #f4a261
+- Orange #e76f51
+*/
+
+/***************************
+****************************
+Reset
+****************************
+***************************/
+@import 'normalize.css';
+
+/* Change all elements to use border-box */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body , html{
+    height: 100%;
+}
+
+/***************************
+****************************
+Base Styles
+****************************
+***************************/
+
+.title{
+    font-family: 'Belleza', sans-serif;
+  }
+  .body{
+    font-family: "Lato", Helvetica, Arial, sans-serif; 
+    font-weight: 500;
+  }
+  .body-lite{
+    font-family: "Lato", Helvetica, Arial, sans-serif; 
+    font-weight: 300;
+  }
+
+@media only screen and (min-width: 550px){
+.button_toggle_menu{
+    display:none;
+}
+}
+
+/***************************
+****************************
+Layout Styles
+****************************
+***************************/
+
+/*OverAll HomePage LAYOUT*/
+@media only screen and (min-width: 550px){
+
+}
+
+
+/*Mobile Devices*/
+
+@media only screen and (max-width: 550px){
+
+}
 
