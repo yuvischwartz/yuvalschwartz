@@ -22,10 +22,14 @@ html {
     font-family: "Lato", Helvetica, Arial, sans-serif; 
     font-weight: 500;
   }
+  .body-lite{
+    font-family: "Lato", Helvetica, Arial, sans-serif; 
+    font-weight: 300;
+  }
   .bg_blue{
       background-color: #38b6ff;
   }
-  .green{
+  .bg_green{
     background-color: #7ed957;
     }
     .bg_blue2{
@@ -34,6 +38,6 @@ html {
     .bg_pink{
         background-color: #ff66c4;
     }
-    .bg-purple{
+    .bg_purple{
         background-color: #cb6ce6
     }
