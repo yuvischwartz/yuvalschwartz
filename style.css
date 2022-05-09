@@ -42,15 +42,10 @@ html {
         background-color: #cb6ce6
     }
 
-    @media only screen and (min-width: 640px){
+
         body {
-            background-image: url("YUVAL_SCHWARTZ2.png");
+            background-image: url("background.png");
             background-repeat: no-repeat;
          }
-    }
-    @media only screen and (max-width: 640px){
-        body {
-            background-image: url("Yuval-mobile.png");
-            background-repeat: no-repeat;
-         }
-    }
+    
+
